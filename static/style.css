@@ -1,0 +1,193 @@
+html { 
+    font-family: sans-serif; 
+    background: #eee; 
+    padding: 1rem; 
+}
+
+body { 
+    max-width: 960px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h1 { 
+    color: #377ba8; 
+    margin: 1rem 0; 
+}
+
+nav { 
+    background: lightgray; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 0.5rem; 
+    border-radius: 5px;
+}
+
+nav a { 
+    color: #377ba8; 
+    text-decoration: none; 
+    padding: 0.5rem; 
+}
+
+.content { 
+    padding: 0 1rem 1rem; 
+}
+
+.post { 
+    margin: 1em 0; 
+}
+
+.post header { 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between;  
+}
+
+.post header h1 { 
+    margin-bottom: 0; 
+}
+
+.post .about { 
+    color: slategray; 
+    font-style: italic; 
+}
+
+.post .body { 
+    white-space: pre-line; 
+}
+
+.content form { 
+    margin: 1em 0; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.content label { 
+    margin-bottom: 0.5em; 
+}
+
+.content input, .content textarea { 
+    margin-bottom: 1em; 
+}
+
+.content textarea { 
+    min-height: 12em; 
+    resize: vertical; 
+}
+
+input.danger { 
+    color: #cc2f2e; 
+}
+
+input[type=submit] { 
+    align-self: start; 
+    min-width: 10em; 
+}
+
+.alert { 
+    padding: 0.5rem; 
+    margin: 1rem 0; 
+    background: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 0.25rem; 
+}
+
+html { 
+    font-family: sans-serif; 
+    background: #eee; 
+    padding: 1rem; 
+}
+
+body { 
+    max-width: 960px; 
+    margin: 0 auto; 
+    background: white; 
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h1 { 
+    color: #377ba8; 
+    margin: 1rem 0; 
+}
+
+nav { 
+    background: lightgray; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 0.5rem; 
+    border-radius: 5px;
+}
+
+nav a { 
+    color: #377ba8; 
+    text-decoration: none; 
+    padding: 0.5rem; 
+}
+
+.content { 
+    padding: 0 1rem 1rem; 
+}
+
+.post { 
+    margin: 1em 0; 
+}
+
+.post header { 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between;  
+}
+
+.post header h1 { 
+    margin-bottom: 0; 
+}
+
+.post .about { 
+    color: slategray; 
+    font-style: italic; 
+}
+
+.post .body { 
+    white-space: pre-line; 
+}
+
+.content form { 
+    margin: 1em 0; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.content label { 
+    margin-bottom: 0.5em; 
+}
+
+.content input, .content textarea { 
+    margin-bottom: 1em; 
+}
+
+.content textarea { 
+    min-height: 12em; 
+    resize: vertical; 
+}
+
+input.danger { 
+    color: #cc2f2e; 
+}
+
+input[type=submit] { 
+    align-self: start; 
+    min-width: 10em; 
+}
+
+.alert { 
+    padding: 0.5rem; 
+    margin: 1rem 0; 
+    background: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 0.25rem; 
+}
