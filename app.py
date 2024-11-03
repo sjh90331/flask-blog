@@ -10,8 +10,7 @@ def get_db_connection():
     try:
         conn = sqlite3.connect('database.db', detect_types=sqlite3.PARSE_DECLTYPES)
         conn.row_factory = sqlite3.Row
-        
-        # Register adapter for datetime
+
         def adapt_datetime(ts):
             return ts.isoformat()
 
@@ -93,13 +92,15 @@ def edit(id):
 
 @app.route('/<int:id>/delete', methods=('POST',))
 def delete(id):
+    # Get post before deletion to show title in message
     post = get_post(id)
+
     conn = get_db_connection()
     conn.execute('DELETE FROM posts WHERE id = ?', (id,))
     conn.commit()
     conn.close()
+
     flash('"{}" was successfully deleted!'.format(post['title']))
     return redirect(url_for('index'))
-
 if __name__ == '__main__':
     app.run(debug=True)
